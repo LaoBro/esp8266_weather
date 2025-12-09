@@ -1,0 +1,116 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Editor backup files
+*~
+*.swp
+*.swo
+*.swn
+
+# OS generated files
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# ESP8266 RTOS SDK build output
+build/
+build_*/
+sdkconfig/
+sdkconfig.old
+
+# Make/CMake files
+Makefile.local
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile.local
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CMakeLists.txt.user
+CMakeLists.txtZone.Identifier
+
+# Eclipse project files
+.project
+.cproject
+.settings/
+
+# VS Code files
+.vscode/settings.json
+
+# Flash image files
+*.bin
+*.elf
+
+# Log files
+*.log
+
+# Package manager files
+/node_modules
+/yarn.lock
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Backup files
+*.backup
+*.old
+*~
+
+# Git conflict files
+*.orig
+*.BACKUP.*
+*.BASE.*
+*.LOCAL.*
+*.REMOTE.*
+
+# macOS specific
+*.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+*.Identifier

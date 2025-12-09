@@ -1,0 +1,19 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "ESP8266-烧录",
+			"command": "make flash",
+			"problemMatcher": [],
+			"detail": "CMake 模板 配置 任务"
+		},
+		{
+			"type": "shell",
+			"label": "ESP8266-烧录并监视",
+			"command": "make flash monitor",
+			"problemMatcher": [],
+			"detail": "CMake 模板 配置 任务"
+		},
+	]
+}

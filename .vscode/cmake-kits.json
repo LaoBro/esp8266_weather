@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Xtensa Toolchain",
+        "toolchainFile": "${env.HOME}/esp/ESP8266_RTOS_SDK/tools/cmake/project.cmake",
+        "environmentVariables": {
+            "CC": "${env.HOME}/.espressif/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/xtensa-lx106-elf-gcc",
+            "CXX": "${env.HOME}/.espressif/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/xtensa-lx106-elf-g++",
+            "IDF_PATH": "${env.HOME}/esp/ESP8266_RTOS_SDK",
+            "PATH": "${env.IDF_PATH}/components/esptool_py/esptool:${env.IDF_PATH}/components/partition_table/:${env.HOME}/.espressif/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin:${env.PATH}"
+        },
+        "compilers": {
+            "CC": "${env.HOME}/.espressif/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/xtensa-lx106-elf-gcc",
+            "CXX": "${env.HOME}/.espressif/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/xtensa-lx106-elf-g++"
+        }
+    }
+]
