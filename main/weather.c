@@ -2,8 +2,8 @@
 #include "esp_tls.h"
 
 #define WEATHER_API_URL "https://api.seniverse.com/v3/weather/now.json"
-#define API_KEY "SRRAJPAeU9ciC8Vsk" // 替换为你的心知天气API密钥
-#define LOCATION "Foshan"           // 替换为你需要的城市拼音
+#define API_KEY "YOUR_API_KEY_HERE" // 替换为你的心知天气API密钥
+#define LOCATION "YOUR_CITY_HERE"   // 替换为你需要的城市拼音
 #define LANGUAGE "en"               // 新增语言选项宏定义
 #define MAX_HTTP_RECV_BUFFER 2048
 
